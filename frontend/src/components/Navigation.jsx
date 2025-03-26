@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/main.css';
+import dashboardImg from '../assets/dashboard.png';
+
 
 const Navigation = () => {
   const [userType, setUserType] = useState('');
